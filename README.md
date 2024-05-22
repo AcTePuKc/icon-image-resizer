@@ -45,7 +45,7 @@ This is a simple Icon and Image Resizing application built using Python and Tkin
 9. Click on "Open Folder" to locate the saved image.
 
 ## Screenshots
-
+I might add some in the future, but probably NOT :)
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AcTePuKc/icon-image-resizer/blob/main/LICENSE) file for details.
 
