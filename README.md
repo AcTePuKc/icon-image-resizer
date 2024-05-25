@@ -10,6 +10,7 @@ This is a simple Icon and Image Resizing application built using Python and Tkin
 - Maintain aspect ratio during resizing (optional).
 - Select the output format (ICO, PNG, JPG, BMP, TIFF, or GIF) for the resized image.
 - Batch resize multiple images at once.
+- Drag & Drop function for a single file conversation.
 - Save the resized image to the selected format.
 - Open the folder containing the saved image.
 - View and manage recent files list.
@@ -19,7 +20,7 @@ This is a simple Icon and Image Resizing application built using Python and Tkin
 ## Known Issues
 
 - The save directory might not update correctly during the session. To ensure the correct save directory is used, set the directory in the settings, then restart the application.
-
+- PNG to JPG is not working
 ## Requirements
 
 - Python 3.x
