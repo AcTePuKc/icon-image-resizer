@@ -8,28 +8,26 @@ This is a simple Icon and Image Resizing application built using Python and Tkin
 - Load an image (supports JPEG, PNG, ICO, BMP, TIFF, and GIF formats).
 - Resize the image to predefined sizes or custom dimensions.
 - Maintain aspect ratio during resizing (optional).
-- Select the output format (ICO, PNG, JPG, BMP, TIFF, or GIF) for the resized image.
+- Select the output format (ICO, PNG, JPG, BMP, TIFF, GIF, or WEBP) for the resized image.
 - Batch resize multiple images at once.
-- Drag & Drop function for a single file conversation.
+- Drag & Drop function for a single file conversion.
 - Save the resized image to the selected format.
 - Open the folder containing the saved image.
 - View and manage recent files list.
-- Set default save and load directories through the settings menu.
+- Set default save directories through the settings menu.
 - Clear recent files list.
+- Enable or disable debug mode for logging verbosity.
 
-## Known Issues
-
-- The save directory might not update correctly during the session. To ensure the correct save directory is used, set the directory in the settings, then restart the application.
-- PNG to JPG is not working
 ## Requirements
 
 - Python 3.x
 - Pillow library (for image processing)
 - Tkinter library (for GUI)
 - tkinterdnd2 library (for drag-and-drop functionality)
-- Subprocess library (for opening the file explorer)
-- Collections library (for handling recent files)
+- OpenCV library (for advanced image processing)
+- Numpy library (for handling arrays)
 - Logging library (for application logging)
+- Collections library (for handling recent files)
 
 ## Usage
 
@@ -56,7 +54,7 @@ This is a simple Icon and Image Resizing application built using Python and Tkin
 7. Select the desired size and output format.
 8. Click on "Resize and Save" or "Batch Resize and Save" to save the resized image(s).
 9. Click on "Open Folder" to locate the saved image.
-10. Use the Settings menu to set default directories and other preferences.
+10. Use the Settings menu to set default directories, debug mode, and other preferences.
 
 ## Screenshots
 I might add some in the future, but probably NOT :)
@@ -65,7 +63,7 @@ I might add some in the future, but probably NOT :)
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/AcTePuKc/icon-image-resizer/blob/main/LICENSE) file for details.
 
 ## Contributing
-Feel free to submit issues, fork the repository and send pull requests!
+Feel free to submit issues, fork the repository, and send pull requests!
 
 ---
 
